@@ -2,9 +2,10 @@
 
 ## Requirements
 ```
-Python 3.6
+Python 3.9
 torch
 torch_geometric
+torch_geometric_temporal
 ```
 ## Overview
 The ```5_fold_cross_validation.py``` file provides the code to split graph data into sets where k-fold cross validation can be carried out.
