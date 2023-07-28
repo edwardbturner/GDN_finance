@@ -17,8 +17,6 @@ def rolling_train_test(model, data, GDN_epochs, DDPM_epochs, gamma, delta, GDN_l
     train_losses, train_pnls, test_losses, test_pnls, test_ys, all_batches = [], [], [], [], [], []
     T = data.snapshot_count
     
-    # Note below has range 0 to T-1 instead of 1 to T as described in the dissertation as Python
-    # counts start with 0 not 1
     for t in range(training_lb, T):
         print(f' ----- On train/test for day {t} ----- ')
         
