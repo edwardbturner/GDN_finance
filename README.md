@@ -17,4 +17,4 @@ The provided datasets (YET TO BE UPLOADED) within the ```finance_data``` folder 
 
 The ```GDN_outputs.py``` and ```GCN_outputs.py``` folders contain the respective model outputs for each of the datasets. The files take the form model_numDays_featureSize_GDNNumEpochs_DDPMNumEpochs_gamma_delta_GDNLearningRate_DDPMLearningRate_DDPMlb_traininglb_dataName. The ```GDN_weights.py``` and ```GCN_weights.py``` folders contain the equivalent files but now for model weights at the end of the respective 100 day training period.
 
-Finally, the ```analysis.ipynb``` notebook provides the code to produce Figure 4, Figure 5, the Sharpe Ratio tests and the t-tests.
+Finally, the ```analysis.ipynb``` notebook provides the code to reproduce Figure 4, Figure 5, the Sharpe Ratio tests and the t-tests.
