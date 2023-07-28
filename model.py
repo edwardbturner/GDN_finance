@@ -50,7 +50,7 @@ class GDN(nn.Module):
         return h
 
 
-
+# The PIUNet code is adapted from Pulfer's DDPM code: https://github.com/BrianPulfer/PapersReimplementations/tree/main/ddpm
 class PIUNet(nn.Module):
     def __init__(
         self,
