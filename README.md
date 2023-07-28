@@ -1,6 +1,5 @@
 # Repository for the paper "Graph Denoising Networks: A Deep Learning Framework for Equity Portfolio Construction"
 
-Test
 
 
 ## Requirements
@@ -10,6 +9,8 @@ torch
 torch_geometric
 ```
 ## Overview
-The ```5_fold_cross_validation.py``` file provides the code to split graph data into sets where k-fold cross validation can be carried out.
+The ```model.py``` and ```train_test.py``` files provide the raw code needed to create and then train/test the GDN model.
 
-The ```model.py``` and ```train_validation_test.py``` files provide the graph auto-encoder used in the paper and the code to optimise it.
+The ```example.ipynb``` notebook provides a simple notebook that shows an implimentation of the GDN we use.
+
+The provided datasets (YET TO BE UPLOADED) within the ```finance_data``` folder are in the form date_numDays_lbSize_correlationType_useOfSelfLoops
