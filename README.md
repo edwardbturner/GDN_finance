@@ -13,4 +13,4 @@ The ```model.py``` and ```train_test.py``` files provide the raw code needed to 
 
 The ```example.ipynb``` notebook provides a simple notebook that shows an implimentation of the GDN we use.
 
-The provided datasets (YET TO BE UPLOADED) within the ```finance_data``` folder are in the form date_numDays_lbSize_correlationType_useOfSelfLoops
+The provided datasets (YET TO BE UPLOADED) within the ```finance_data``` folder are in the form date_numDays_lbSize_correlationType_useOfSelfLoops. For this implementation we do not manually add self loops at any point as the GCNConv function does this automatically.
